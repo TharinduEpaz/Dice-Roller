@@ -1,0 +1,133 @@
+body {
+  margin: auto;
+  box-sizing: border-box;
+   background: linear-gradient(70deg, rgb(39, 0, 78) , rgba(0, 0, 2, 0.886));
+  font-family: Play, sans-serif;
+  background-image: url(/pattern.webp);
+
+}
+.container{
+  margin:auto;
+  position: relative;
+  margin-left:15vw;
+  margin-top: 5vh;
+  animation: animation1 2s 1;
+  
+
+    
+   
+
+}
+.player1 {
+  background-color: rgb(25, 41, 50);
+  width: 20vw;
+  height: 90vh;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+
+}
+.dice {
+  text-align: center;
+  background-color: rgb(237, 194, 3);
+  width: 30vw;
+  height: 90vh;
+  display: inline-block;
+  margin-left: 20vw;
+  position: absolute;
+  box-shadow: 11px 0px #ffffff;
+  box-shadow: 0px 0px 34px #200404;
+  z-index: 1;
+  border-radius: 50px;
+}
+.player2 {
+  background-color: rgb(25, 41, 50);
+  width: 20vw;
+  height: 90vh;
+  display: inline-block;
+  margin-left: 50vw;
+  position: absolute;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  
+}
+#dice1, #dice2{
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+  animation: animation1 2s 1;
+}
+
+.dice-images {
+  text-align: center;
+
+}
+.player1-score,
+.player2-score {
+  position: relative;
+  margin: auto;
+  background-color: rgb(154, 53, 53);
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom:20px;
+}
+.roll {
+  text-align: center;
+}
+
+.roll-button {
+  background-color: rgb(25, 41, 50);
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  height: 100px;
+  border-radius: 20px;
+  border: 5px solid rgb(25, 41, 50);
+  margin: auto;
+  transition: 0s background-color;
+  margin-top:50px;
+}
+.roll-button:hover {
+  background-color: rgb(255, 213, 0);
+  box-shadow: 0px 0px 34px #200404;
+}
+.round-score{
+    font-size: 50px;
+    margin:0;
+}
+
+#player1-img, #player2-img{
+  width :150px;
+  padding-top: 100px;
+  
+}
+
+@keyframes animation1 { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.restart{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+}
+
+
